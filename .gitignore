@@ -1,0 +1,32 @@
+# Env
+.env
+.env.*
+!.env.example
+
+# Python
+scraper/__pycache__/
+scraper/**/__pycache__/
+scraper/.venv/
+scraper/*.egg-info/
+scraper/.pytest_cache/
+
+# Laravel
+backend/vendor/
+backend/node_modules/
+backend/storage/*.key
+backend/bootstrap/cache/*.php
+backend/.phpunit.result.cache
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Docker
+db-data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
